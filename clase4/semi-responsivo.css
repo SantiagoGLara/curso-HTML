@@ -1,0 +1,39 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 32px;
+    color: crimson;
+}
+.texto{
+    font-size: 18px;
+    color: cadetblue;
+}
+
+@media (max-width:480px) {
+    .titulo{
+        font-size: 24px;
+        color: chocolate;
+    }
+}
+@media (min-width:481px) and (max-width:720px) {
+    .titulo{
+        font-size: 16px;
+        color: gold;
+    }
+}
+@media (min-width:1025px) {
+    .titulo{
+        font-size: 36px;
+        color: hotpink;
+    }
+    .texto{
+        font-size: 20px;
+        color: midnightblue;
+    }
+    
+}
