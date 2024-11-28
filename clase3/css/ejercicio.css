@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: Bokor,'Times New Roman', Times, serif;
+}
+
+:root{
+    --background-color: blue;
+    --text-color:black;
+}
+header{
+    width: 100%;;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+body{
+    
+    background-image: url(https://i.pinimg.com/originals/29/16/da/2916daf99599dcb0a2c15dde9ef324d7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+ul{
+    gap: 4rem;
+    display: flex;
+    color: black;
+}
+li{
+    background-color: pink;
+    border-radius:15px;
+    padding: 6px 10px;
+}
+button{
+    background-color: pink;
+    padding: 0px 7px;
+    border-radius: 15px;
+    border-color: black;
+    border: 1px black solid;
+}
+.registro{
+    align-items: flex-end;
+}
+li:hover{
+    background-color: green;
+    color: white;
+    cursor: crosshair;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+input{
+    font-family: 'Courier New', Courier, monospace;
+}

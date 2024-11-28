@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- importante para que el navegador analice bien 
+    la semantica del texto, en este tipo español-->
+    <head> <!--pestaña superior, lo que se ve para navegar entre pestañas-->
+        <title>Hola Mundo</title>
+        <meta charset="UTF-8"> <!--le estamos dando una "lista" de caracteres legibles-->
+        <meta name="viewport"content="width=device,initial-scale=1">
+    </head>
+    <body><!--contenido de la pagina-->
+        ctrl + ] =comentar linea
+        <div>
+            div:contenedor(como en tap)generico sin significado especifico, como para hacer un modulo de contenido<br>
+            meta: etiquetas q
+        </div>
+        <header>
+            importante, poner los alt en las imagenes
+            para accesibilidad, aunque no sea visible es para gente con discapacidades<br>
+            <img src="imagenes/julion.png"alt="julion"width=200/>
+        </header>
+        <span>
+            span: contenedor para resaltar texto
+            <p>
+                p: para marcar un parrafo<br>br:salto de linea, pero hay otros tipos de salto mas recomendables
+                <h1>h1-6 va cambiado el texto </h1><h2>segun prioridad, a mayor numero </h2><h3>menor prioridad</h3>
+            </p>
+            <hr>
+            hr:linea horizontal para dividir<br>
+            <b>b:negritas</b><br>
+            <strong>strong:negritas con valor semantico para el navegador</strong><br>
+            <em>kkk</em><br>
+            a<sup>sup:coeficiente(super)</sup>
+            b<sub>sub:subindice</sub><br>
+            <del>del: delete, tachado</del>
+            <ins>ins: subraya</ins><br>
+            <b><em><del>se pueden concatenar entre si</del><ins></ins></em></b>
+
+
+        </span>
+        <main>
+            <img src="imagenes/flameo.png"width=300/>
+        </main>
+        <footer>
+            <img src="imagenes/nunu.png"width=300/>
+        </footer>
+        <div>
+            lista ordenada: "ol"
+            <ol>
+                <li><a>ic</a></li>
+                <li><a>kk</a></li>
+                <li><a>ck</a></li>
+            </ol>
+            lista no ordenada "ul"
+            <ul>
+                <li><a>bc</a></li>
+                <li><a>s</a></li>
+                <li><a>pn</a></li>
+            </ul>
+        </div>
+
+        <table border="1">
+            tr:define una fila<br>
+            colspan y rolspan: combinan celdas arriba o abajo
+            <tr>
+                <th>fila 1</th>
+                <th>columna 1</th>
+                <th>columna 2</th>
+             </tr>
+            
+            <tr>
+                <th>fila 2 </th>
+                <th>columna 1</th>
+                <th>columna 2</th>
+            </tr>
+            
+        </table>
+formulario:
+        <form action="#">
+            <input  type="text"><br>
+            <input  type="password"><br>
+            <input  type="email"><br>
+            <input  type="number"><br>
+            <input  type="checkbox">
+            <input  type="checkbox"><br>
+            <input  type="radio">
+            <input  type="radio"><br>
+            <textarea></textarea><br>
+            <select name="color" title="color"> <!--option selected es la opcion preseleccionada-->
+                <option selected>default</option>
+                <option title="rojo">Rojo</option>
+                <option title="verde">verde</option>
+            </select>
+            <button>boton1</button>
+            <input  type="submit"> submit actualiza la pagina y envia formulario
+        </form>
+    </body>
+       
+</html>

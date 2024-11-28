@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Roboto Condensed",'Times New Roman', Times, serif;
+}
+
+:root{
+    /* variable de color */
+--text-color:#FFF;
+--background-color:#000;
+}
+
+/* .logo{
+    background-image: url(https://pbs.twimg.com/profile_images/1855037720877289472/rVlyzDxp_400x400.jpg);
+    background-size: cover;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+} */
+/* en el caso de ul y nav, estamos modificando todas las etiquetas de ese tipo, no como en logo que solo son las que se forman de la clase logo */
+nav{
+    /* border: 3px solid orangered; */
+    width: 100%;
+    display: flex;
+    /* flex es lo q hace que se vea horizontal */
+    align-items:flex-start;
+    /* alinear */
+    justify-content: space-between;
+    /* ordena con espacios iguales entre si */
+}
+ul{
+    gap: 4rem;
+    display: flex;
+    /* unidades de medida
+    rem: relativo a la fuente html
+    em: para herencia, el tamaño de uno depende de su padre
+    absolutas: px, cm, ft,inch. usos especificos 
+    vh: porcentaj relativo a tamaño de la ventana en la pantalla
+     */
+}
+body{
+    width: 100%; 
+    height: 100vh;
+    background-image: url(https://scontent.fmlm4-1.fna.fbcdn.net/v/t39.30808-6/438059849_1159713571726339_2458668728323728514_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEftYQj-sBxAMLRMQieUkmP3zqNygLXC0PfOo3KAtcLQ0eZrCZCrmOkjZ4gTEY9DUKEhyzqVn0LThsu5DDGaxSa&_nc_ohc=falTkdMfePoQ7kNvgH2Ocma&_nc_zt=23&_nc_ht=scontent.fmlm4-1.fna&_nc_gid=AzFVg1EhZwoswAcNY3D4HUV&oh=00_AYD-M5o2gsiIWeB63nvouOSTGtT0XDWz3wvSXcTkSaffvA&oe=674BD56E);
+    background-repeat: no-repeat;
+    /* usos especificos, pero es buena practica */
+    background-position: center; 
+    background-size: cover;
+    /* hace q cubra solo el espacio usado */
+}
+li{
+    background-color:orangered;
+    padding: 6px 10px;
+    /* separacion entre el texto y el borde del elemento 
+    6 modifica y, 10 en x. se pueden poner hasta 4 parametros, para modificar distancias por lado*/
+    border-radius: 30px;
+}
+li:hover{ /* para cuando el cursor pase por el boton */
+    background-color: orangered;
+    color:white;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 5px 10px;
+    background:orange;
+    border: 2px solid blue;
+    color: white;
+    font-size: 40px;
+    transition: 100ms;
+}
+button:hover{
+    color:black;
+    border-color: black;
+    background-color: black;
+    transition: 100ms;
+}
+button:active{
+    border-color: black;
+    background-color:blue;
+    color:white
+}
+.hero{
+    padding: 2rem 5rem 2rem 5rem;
+    display: flex;
+    align-items:  center;
+    height: 70vh;
+}
+.hero-container{
+    font-size: 2rem;
+    padding-bottom: 30%;
+}
+.hero-container h1{ /* titulos del hero container*/
+    color:var(--text-color);
+    font-size: 4rem;
+}
+
+.hero-container p{
+    padding-bottom: 50px;
+}
+#jugar-ahora{
+    margin-left: 20px;
+}
