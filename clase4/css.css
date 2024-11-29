@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
 *{
     background-color: orange;
+    font-family: 'Yuji Mai';
+    font-size: 15px;
 }
 .card{
     background-color: brown;
@@ -63,4 +66,25 @@ body{
     right: -20%;
     border-radius: 50%;
     transition-delay: 50ms;
+}
+.botones{
+    position: absolute;
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+.clima{
+    background-color: pink;
+    width: 100%;
+    border: 1px white solid;
+}
+.clima:hover{
+    width: 150%;
+    height: 30px;
+    transition: all 500ms;
 }
